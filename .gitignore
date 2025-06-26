@@ -1,0 +1,58 @@
+# Restaurant Management System - .gitignore
+
+# Sensitive configuration files
+config/database.php
+
+# User uploads
+uploads/
+assets/images/uploads/
+
+# Logs
+*.log
+error.log
+access.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# PHP specific
+vendor/
+composer.lock
+
+# Backup files
+*.bak
+*.backup
+*_backup.*
+
+# Cache files
+cache/
+tmp/
+
+# Environment files (if you add them later)
+.env
+.env.local
+.env.production
+
+# Database dumps
+*.sql.gz
+*.sql.bak
+
+# Session files
+sessions/
